@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color:gold;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.cabecalho-imagem{
+    width:5%; 
+}
+
+.cabecalho-item{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 24px;
+}
+
+.escola{
+    background-image: linear-gradient(gold, rgb(255, 255, 255));
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-imagem{
+    width:25%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+.estudante-imagem{
+    width:25%;
+}
